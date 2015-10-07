@@ -1,0 +1,43 @@
+{"docName":"ui_test","path":"~/Downloads/Framer/ui_test","relativeImagePath":"images","imagePath":"~/Downloads/Framer/ui_test/images","framerPath":"~/Downloads/Framer/ui_test/framer","viewInfoPath":"~/Downloads/Framer/ui_test/framer/views.ui_test.js","logPaths":["/tmp/framerps.log","~/Downloads/Framer/ui_test/framer/framerps.log"]}
+
+Running for ~/Downloads/Framer/ui_test
+Could not read data file
+Renaming content -> content-2
+content: Exporting image
+Picture: Exporting image
+PROGRESS: 18.75
+Folder: Exporting image
+PROGRESS: 25
+Document: Exporting image
+PROGRESS: 31.25
+Compass: Exporting image
+PROGRESS: 37.5
+Dashboard: Exporting image
+PROGRESS: 43.75
+Chart: Exporting image
+PROGRESS: 50
+PROGRESS: 50
+oscars&r badge: Exporting image
+Group 5: Exporting image
+PROGRESS: 62.5
+PROGRESS: 62.5
+tab: Exporting image
+PROGRESS: 68.75
+PROGRESS: 68.75
+Navigation Bar: Exporting image
+Group 7 copy 3: Exporting image
+PROGRESS: 81.25
+expand menu: Exporting image
+PROGRESS: 87.5
+Group 7 copy 4: Exporting image
+PROGRESS: 93.75
+PROGRESS: 93.75
+Status Bar: Exporting image
+PROGRESS: 100
+16 views changed
+Writing ~/Downloads/Framer/ui_test/index.html
+Writing ~/Downloads/Framer/ui_test/app.js
+Writing ~/Downloads/Framer/ui_test/framer/framer.js
+Writing ~/Downloads/Framer/ui_test/framer/framerps.js
+
+SUCCESS: ~/Downloads/Framer/ui_test

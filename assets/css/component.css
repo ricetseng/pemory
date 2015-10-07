@@ -1,0 +1,190 @@
+
+.og-grid {
+    list-style: none outside none;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+.og-grid li {
+    height: 385px;
+    margin-bottom: 30px;
+    vertical-align: top;
+}
+.row-fluid .span3:nth-child(4n+1) {
+    margin-left: 0;
+}
+.og-grid li > a {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.og-grid li > a, .og-grid li > a img {
+    border: medium none;
+    outline: medium none;
+    position: relative;
+}
+.og-grid li.og-expanded > a:after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #DDDDDD;
+    border-image: none;
+    border-style: solid;
+    border-width: 15px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin: -20px 0 0 -15px;
+    pointer-events: none;
+    position: absolute;
+    top: auto;
+    width: 0;
+}
+.og-expander {
+    background: none repeat scroll 0 0 #DDDDDD;
+    height: 0;
+    left: 0;
+    margin-top: 10px;
+    overflow: hidden;
+    position: absolute;
+    text-align: left;
+    top: auto;
+    width: 100%;
+    z-index: 1020;
+}
+.og-expander-inner {
+    height: 100%;
+    padding: 50px 30px;
+}
+.og-close {
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+}
+.og-close:before, .og-close:after {
+    background: none repeat scroll 0 0 #888888;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg);
+    width: 100%;
+}
+.og-close:after {
+    transform: rotate(-45deg);
+}
+.og-close:hover:before, .og-close:hover:after {
+    background: none repeat scroll 0 0 #333333;
+}
+.og-fullimg, .og-details {
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 47%;
+}
+.og-details {
+    -moz-box-sizing: border-box;
+    padding: 0 20px;
+}
+.og-fullimg {
+    text-align: center;
+}
+.og-fullimg img {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+}
+.og-details h3 {
+    color: #333333;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    padding: 40px 0 10px;
+}
+.og-details p {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.og-details a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 30px 0 0;
+    outline: medium none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.og-details a:before {
+    content: "→";
+    display: inline-block;
+    margin-right: 10px;
+}
+.og-details a:hover {
+}
+.og-loading {
+    animation: 0.5s ease-in-out 0s normal both infinite loader;
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: 0 0 1px #CCCCCC, 15px 30px 1px #CCCCCC, -15px 30px 1px #CCCCCC;
+    height: 20px;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+@-moz-keyframes loader {
+0% {
+    background: none repeat scroll 0 0 #DDDDDD;
+}
+33% {
+    background: none repeat scroll 0 0 #CCCCCC;
+    box-shadow: 0 0 1px #CCCCCC, 15px 30px 1px #CCCCCC, -15px 30px 1px #DDDDDD;
+}
+66% {
+    background: none repeat scroll 0 0 #CCCCCC;
+    box-shadow: 0 0 1px #CCCCCC, 15px 30px 1px #DDDDDD, -15px 30px 1px #CCCCCC;
+}
+}
+@-moz-keyframes loader {
+0% {
+    background: none repeat scroll 0 0 #DDDDDD;
+}
+33% {
+    background: none repeat scroll 0 0 #CCCCCC;
+    box-shadow: 0 0 1px #CCCCCC, 15px 30px 1px #CCCCCC, -15px 30px 1px #DDDDDD;
+}
+66% {
+    background: none repeat scroll 0 0 #CCCCCC;
+    box-shadow: 0 0 1px #CCCCCC, 15px 30px 1px #DDDDDD, -15px 30px 1px #CCCCCC;
+}
+}
+@media screen and (max-width: 830px) {
+.og-expander h3 {
+    font-size: 32px;
+}
+.og-expander p {
+    font-size: 13px;
+}
+.og-expander a {
+    font-size: 12px;
+}
+}
+@media screen and (max-width: 650px) {
+.og-fullimg {
+    display: none;
+}
+.og-details {
+    float: none;
+    width: 100%;
+}
+}
